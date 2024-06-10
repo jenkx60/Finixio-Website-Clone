@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    width: 100%;
+    background-color: #071850;
+}
+
+.finixio {
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 1.5rem 3rem;
+}
+
+.finixio_content ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.finixio_content li{
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.btn_finixio{
+    height: 3rem;
+    width: 10rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+li a:hover{
+    font-weight: bold;
+    color: #ff0d64;
+}
+
+.btn_finixio:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+}
+
+main{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../image/home-banner-v1.jpg);
+}
+/*Section 1 styling design start here*/
+
+#leading{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(23, 23, 92);
+}
+
+.marketing{
+    text-align: center;
+}
+
+.marketing_h{
+    font-size: 3rem;
+    color: white;
+}
+
+.marketing_text{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.agency{
+    height: 3.5rem;
+    width: 15rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    background-color: rgb(255, 0, 149);
+    border-radius: 25px;
+    border: 2px solid rgb(255, 0, 149);
+    color: white;
+    font-weight: bold;
+}
+
+.agency:hover{
+    color: red;
+    background-color: white;
+}
+
+.fact{
+    margin: 3rem;
+}
+
+.fact_text{
+    margin: 2rem;
+}
+
+.help{
+   padding-top: 10rem;
+}
+
+#section_1{
+    height: 95vh;
+    width: 100%;
+    background-color: white;
+    /*position: relative;*/
+   margin: 10rem;
+}  
+.passion{
+    display: flex;
+    justify-content: space-between;
+   position: relative;
+} 
+.intro_img {
+    padding-right: 10rem;
+}
+
+.global_img {
+    position: relative;
+    /* border: 8px solid #E5F1FF; */
+}
+
+#img_3 {
+    border: 5px solid #E5F1FF;
+    border-radius: 50%;
+    position: relative;
+    right: 750%;
+    top: 12%;
+}
+
+#img_6 {
+    position: absolute;
+    right: 980%;
+    top: 45%;
+    border: 5px solid #E5F1FF;
+    border-radius: 50%;
+}
+#img_4 {
+    position: absolute;
+    right: 1000%;
+    top: 15%;
+    border: 5px solid #E5F1FF;
+    border-radius: 50%;
+}
+
+#img_5 {
+    position: absolute;
+    right: 500%;
+    top: 20%;
+    border: 5px solid #E5F1FF;
+    border-radius: 50%;
+}
+
+
+#img_1 {
+    position: absolute;
+    right: 700%;
+    top: 30%;
+    border: 5px solid #E5F1FF;
+    border-radius: 50%;
+}
+
+#img_2 {
+    position: absolute;
+    right: 470%;
+    top: 45%;
+    border: 5px solid #E5F1FF;
+    border-radius: 50%;
+}
+
+.global_img li{
+    list-style: none;
+}
+
+.explore{
+    /*text-align: center;*/
+    padding-right: 15rem;
+}
+
+h1{
+    padding: 1rem;
+}
+
+.major{
+    height: 3.5rem;
+    width: 15rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid blue;
+    color: blue;
+    font-weight: bold;
+    margin: 2rem;
+}
+.female{
+    text-align: center;
+}
+
+.major:hover{
+    background-color: blue;
+    color: white;
+}
+
+.explore p{
+    font-size: 1rem;
+}
+
+.intro{
+    padding: 2rem;
+    color: rgb(81, 81, 196);
+}
+
+.intro_text{
+    font-size: 2rem;
+    color: rgb(80, 68, 68);
+}
+
+.world{
+    margin: 2rem o;
+}
+
+/*Section 1 styling design end here*/  
+/*Section 2 styling design start here*/
+
+#section_2{
+    height: 120vh;
+    width: 100%;
+    background-color: white;
+}
+
+.stay p{
+    text-align: center;
+    padding: 2rem;
+    color: rgb(81, 81, 196);
+}
+
+.stay h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(15, 15, 37);
+}
+
+#card{
+    border-radius: 5px;
+    border: 2px solid none;
+}
+
+.charity{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.education a{
+    color: rgb(109, 109, 119);
+}
+
+.education_1 a{
+    color: rgb(109, 109, 119);
+}
+
+.education a:hover{
+    color: rgb(48, 48, 223);
+}
+
+.education_1 a:hover{
+    color: rgb(48, 48, 223);
+}
+
+.girl{
+    height: 3.5rem;
+    width: 8rem;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: blue;
+    text-align: center;
+}
+
+.more_text{
+    text-align: center;
+    margin: 3rem;
+}
+
+.girl:hover{
+    background-color: blue;
+    color: white;
+}
+
+.boy{
+    color: rgb(124, 124, 133);
+}
+
+/*Section 2 styling design end here*/  
+/*Section 3 styling design start here*/
+
+#section_3{
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+}
+
+.join{
+    font-size: 2rem;
+    color: rgb(21, 21, 100);
+    text-align: center;
+    margin: 1rem;
+}
+
+.pension{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem;
+}
+
+.home p{
+    font-size: 1.3rem;
+    color: rgb(109, 109, 119);
+}
+
+.home_1 p{
+    font-size: 1.3rem;
+    color: rgb(109, 109, 119);
+}
+
+.remote{
+    height: 3rem;
+    width: 11rem;
+    cursor: pointer;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: white;
+    text-align: center
+}
+
+.remote:hover{
+    background-color: white;
+    color: blue;
+}
+
+.member{
+    text-align: center;
+    margin: 3.5rem;
+}
+
+/*Section 3 styling design end here*/  
+/*Section 4 styling design start here*/
+
+#section_4{
+    height: 45vh;
+    width: 100%;
+    background-color: #071850;
+}
+.touch{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+.linkedin ul{
+    list-style: none;
+    display: flex;
+}
+.get{
+    margin: 2rem;
+    font-size: 1.7rem;
+    color: white;
+}
+.buy a:hover{
+    color: orangered;
+}
+.twitter a{
+    font-size: 2rem;
+    color: white;
+}
+.instagram p{
+    font-size: 1.2rem;
+}
+.facebook p{
+    color: white;
+    font-size: 1.2rem;
+}
+.buy a{
+    color: white;
+}
+.connect ul{
+    gap: 1rem;
+    display: flex;
+    align-content: space-around;
+}
+.tower{
+    margin-left: 5rem ;
+}
+.tower p{
+    color: white;
+}
+.term a{
+    color: white;
+}
+.term a:hover{
+    color: orangered;
+}
+ footer{
+    height: 50vh;
+    width: 100%;
+    background-color: #041341;
+    position: fixed;
+    display: flex;
+    gap: 30rem;
+}

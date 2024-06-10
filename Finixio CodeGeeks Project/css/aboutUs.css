@@ -1,0 +1,273 @@
+/* global styles begin */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h5 {
+  margin-bottom: 1.2rem;
+  font-size: 21px;
+  font-weight: 100;
+  color: #05123e;
+}
+
+h4 {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  font-weight: 100;
+  color: #2346c1;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 2.75rem;
+  font-weight: 900;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 32px;
+  font-weight: 800;
+  color: #05123e;
+}
+
+h2 span {
+  margin-bottom: 2rem;
+  font-size: 32px;
+  font-weight: 400;
+  color: #05123e;
+  font-style: italic;
+  margin-top: 1.25rem;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+p {
+  color: #49557b;
+  font-size: normal;
+  font-weight: thin;
+  margin-bottom: 1.25rem;
+  line-height: 1.75rem;
+}
+
+li {
+  color: #49557b;
+  font-size: normal;
+  font-weight: thin;
+  margin-left: 1rem;
+  line-height: 1.75rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0d64;
+}
+/* global styles end */
+
+/* navigation styles begin */
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+}
+
+.nav_wrapper {
+  background: #071850;
+  margin: 0;
+  padding: 0.5 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 4.75rem;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.75rem;
+  align-items: center;
+}
+
+.nav-links a:first-child {
+  color: #ff0d64 !important;
+}
+
+.nav-links a:last-child {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.nav-links a:last-child:hover {
+  border: 2px solid #ff0d64;
+}
+/* navigation styles end */
+
+/* body styling following the arrangement of the sections begins */
+#about-us {
+  background-image: url(https://finixio.com/wp-content/uploads/2021/03/contact-us.jpg);
+  text-align: center;
+  padding: 4rem 0;
+  color: white;
+}
+
+#who-we-are {
+  width: 90%;
+  display: flex;
+  padding: 68px 0;
+  margin: auto;
+}
+
+#who-we-are img {
+  padding: 0 1rem;
+}
+
+#our-values {
+  text-align: center;
+  padding: 0 5rem;
+  margin-bottom: 8rem;
+}
+
+.d-flex {
+  display: flex;
+  gap: 2rem;
+  margin-top: 8rem;
+}
+
+.img-wrapper {
+  position: absolute;
+  top: -50px;
+  left: 35%;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.img-wrapper img {
+  width: 50%;
+}
+
+.blue {
+  background-color: #395cd8;
+}
+
+.yellow {
+  background-color: #ffbb0b;
+}
+
+.green {
+  background-color: #39c677;
+}
+
+.pink {
+  background-color: #ff0d64;
+}
+
+.value-wrapper {
+  background-color: #f7f9ff;
+  position: relative;
+  padding-top: 4rem;
+}
+
+.value-wrapper p {
+  color: #14255d;
+  font-size: 14px;
+  font-weight: thin;
+  line-height: 1.25rem;
+  padding: 0 1rem;
+}
+
+#testimonial {
+  background-image: url(https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg);
+  font-size: 24px;
+  line-height: 2.75rem;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  padding: 2rem 10rem;
+}
+
+#testimonial img {
+  width: 75px;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+/* body styling ends */
+
+/* footer styling begins */
+footer {
+  color: white;
+  padding-bottom: 0;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.flex {
+  background: url(https://finixio.com/wp-content/themes/twenty-twenty-child/assets/images/footer-bg-image.jpg)
+    center top;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 5rem;
+}
+
+.copyright {
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 6rem;
+  margin-bottom: 0;
+  background-color: #041341;
+}
+
+.socials {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.socials a {
+  background-color: #0d2162;
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials a:hover {
+  box-shadow: 0.2px 0.2px 2px 2px #f7f9ff;
+  top: -2px;
+}
+/* footer styling ends */

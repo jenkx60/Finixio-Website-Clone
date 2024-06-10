@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    height: 70px;
+    background-color: rgb(7, 24, 80);
+    width: 100%;
+    justify-content: space-between;
+    padding: 2.5rem 10rem;  
+    position: sticky;
+    top: 0;    
+}
+.logo {
+    font-size: large;
+    margin-top: -6.5rem;
+   
+}
+.logo img {
+    width: 120px;
+}
+.top {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 0.1rem; 
+    align-items: center; 
+    font-size: 18px;
+    font-weight: bold;     
+}
+
+.oke ul {
+    list-style: none;
+    text-decoration: none;
+}
+.oke li a {
+    color: white;
+    text-decoration: none;
+        
+}
+.oke li a:hover {
+    font-weight: bold;
+    color: red;
+}
+.oke1 {
+    display: flex;
+    
+}
+
+.oke1 ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+.oke1 li a {
+   color: red;  
+   list-style: none;
+   text-decoration: none;  
+   
+}
+.oke1 li a:hover {
+    font-weight: bold;
+    color: red;
+}
+.btn_1 {
+    border-radius: 5rem;
+    border: 2px solid white;
+    cursor: pointer; background-color: transparent;
+    font-weight: 500;
+    color: white;
+    padding: 12px 20px;
+    margin: 0 0 0 10px;
+    font-size: 15px;
+}
+
+.btn_1:hover {
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+}
+#section_A {
+    background-color: rgb(7, 24, 80);
+    height: 220px;
+    
+}
+#section_A h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 550;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;  
+    padding: 7rem 3rem;   
+   
+}
+#section_B {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8rem 12rem;
+       
+}
+.talk_wrapper {
+    width: 50%;
+}
+.talk h2 {
+    font: 14px;
+    font-size: medium;
+    font-family: nunito, sans serif;
+    font-weight: 500;
+    color: #2346C1B3;
+    font: 14px;
+    margin: 0px 0px 32px;
+    padding: 0 2rem;
+
+}
+.talk h3 {
+    color: #05123E;
+    margin: 0 0 25px 0;
+    font-family: nunito, sans serif;
+    font-size: 35px;
+    line-height: 55px;
+    letter-spacing: -0.02rem;
+    padding: 0 2rem;
+
+}
+.listen {
+    color: #49557B;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    line-height: 28px;
+    letter-spacing: 0.02rem;
+    padding: 0 2rem;
+}
+.listen p {
+    margin-bottom: 1rem;
+}
+.carding {
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: 1.5rem;
+}
+.mail_img {
+    padding: 0 2rem;
+}
+.mail_img a {
+    color: #2346C1;
+    font: 16px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 0.7rem;
+
+}
+.mail_img p {
+    color:#49557B ;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 180%;
+    color: #49557B;
+    font-weight: 100;
+    height: 700px;
+    padding: 0.2rem 3rem;
+   
+}
+.form input {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 4px; 
+    border: 1px solid #D2D8EA;  
+    margin-top: 1rem; 
+
+}
+.form textarea {
+    border-radius: 4px; 
+    border: 1px solid #D2D8EA; 
+}
+
+.message {
+    height: 5rem;
+    width: 5rem;    
+}
+.btn_2 {
+    border-radius: 5rem;
+    border: 2px solid #2346C1;
+    cursor: pointer; background-color: #2346C1;
+    width: 30%;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0 0px 0px;
+}
+.btn_2:hover {
+    background-color: white;
+    color:#2346C1 ;
+}
+  
+#section_C {
+    display: flex;
+    background-color: rgb(7, 24, 80);
+    height: 320px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 2rem;
+    align-items: start;
+}
+.logo_1 {
+    font-size: large;
+    padding-top: 0.5rem;
+    padding-left: 9rem;
+    padding-right: 8rem;
+    
+    
+}
+.logo_1 img {
+    width: 120px;    
+     
+}
+.ese {
+    display: flex;
+    gap: 3rem;
+    /* margin-bottom: 0.1rem; */
+    margin-top: 3rem;
+    align-items: center;
+    
+}
+.ese_1 {
+    font-size: 25px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 4rem;
+    /* padding: 5rem -10rem; */
+}
+.ese_1_1 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-right: 0.5rem;
+}
+.ese_2 {
+    font-size: 25px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 2.4rem;
+    /* padding: 5rem -10rem; */
+}
+.ese_2_2 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-right: 0.5rem
+}
+.ese_3 {
+    font-size: 25px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 2.8rem;
+    /* padding: 5rem -10rem; */
+}
+.ese_3_img {
+    display: flex;
+    gap: 1rem;
+    background-color: transparent;
+    border: 1px solid #0d2162;
+}
+.icon_box {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #0d2162;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+#section_C ul {
+    list-style: none;
+}
+#section_C li {
+    margin-bottom: 0.8rem;
+}
+#section_C li a {
+    color: white;
+}
+#section_C li a:hover {
+    color: red;
+}
+#section_D {
+    display: flex;
+    gap: 32rem;
+    background-color: #041341;
+    color: white;
+    height: 50px;
+    /* padding-top: 2rem; */
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+#section_D a {
+    color: white;
+}
+#section_D a:hover {
+    color: red;
+}
+
